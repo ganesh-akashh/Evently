@@ -22,37 +22,44 @@ public class EventsController {
 
     @Autowired
     EventsService es;
-
+   
+    //fetchDetails through pagination.
     @GetMapping("/fetchAllEventDetails/{pgno}")
     public List<EventsModel> fetchAllEventDetails(@PathVariable int pgno) {
         return es.fetchAllEventDetails(pgno);
     }
-
+    
+    //fetchEventById
     @GetMapping("fetchEventById/{id}")
     public Optional<EventsModel> fetchEventById(@PathVariable int id) {
         return es.fetchEventById(id);
     }
-
+    
+    //fetchEventByUserId
     @GetMapping("fetchEventByUserId/{id}")
     public List<EventsModel> fetchEventByUserId(@PathVariable int uid) {
         return es.fetchEventByUserId(uid);
     }
-
+    
+    //fetchRelatedEvents based on categoryId.
     @GetMapping("fetchRelatedEvents/{id}")
     public List<EventsModel> fetchRelatedEvents(@PathVariable int cid) {
        return es.fetchRelatedEvents(cid);
     }
 
+    //updateEventBasedOnId
     @PostMapping("/addEventDetails")
     public EventsModel addEventDetails(@RequestBody EventsModel em) {
         return es.addEventDetails(em);
     }
-
+    
+    //updateEvenDetails
     @PutMapping("/updateEventDetails")
     public EventsModel updateEventDetails(@RequestBody EventsModel em) {
         return es.updateEventDetails(em);
     }
-
+    
+    //deleteEventByAnAid
     @DeleteMapping("/deleteEventById/{id}")
     public boolean deleteEventById(@PathVariable int id) {
         return es.deleteEventById(id);
