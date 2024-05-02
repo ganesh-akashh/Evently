@@ -8,7 +8,7 @@ import MobileNav from "./MobileNav"
 
 const Header = () => {
 
-  const [isAuthenticated, setIsAutheticated] = useState(false);
+  const [isAuthenticated, setIsAutheticated] = useState(true);
 
   return (
     <header className="w-full  border-b">
