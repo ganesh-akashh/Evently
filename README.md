@@ -1,11 +1,10 @@
 
 Table of Contents:
 
-1.Introduction(#introduction)
-2.TechStack(#techstack)
-3.Installation(#installation)
-4.
-5.
+1. Introduction(#introduction)
+2. TechStack(#techstack)
+3. Installation(#installation)
+
 
 ## <a name="#introduction">🤡 Introduction</a>
 Built on Next.js 14 and SpringBoot, the events application stands as a comprehensive, full-stack platform for managing events. It serves as a hub, spotlighting diverse events taking place globally. Featuring seamless payment processing through Stripe, you have the capability to purchase tickets for any event or even initiate and manage your own events.
@@ -13,10 +12,10 @@ Built on Next.js 14 and SpringBoot, the events application stands as a comprehen
 
 
 ## <a name="#techstack">🚀 TechStack</a>
-1.React JS.
-2.SpringBOOT.
-3.Tailwind CSS.
-4.ShadcnUI.
+1. React JS.
+2. SpringBOOT.
+3. Tailwind CSS.
+4. ShadcnUI.
 
 
 ## <a name="#installtion">🖥️ Installation</a>
