@@ -24,16 +24,16 @@ Follow these steps to set up the project locally on your machine.
 
 **FrontEnd Next-JS  App**
 
-1.Navigate to the client directory:
+1. Navigate to the client directory:
 ```bash
 cd client
 ```
-2.Install dependencies:
+2. Install dependencies:
 ```bash
 npm i
 ```
 
-3.Start the Next-JS App:
+3. Start the Next-JS App:
 ```bash
 npm run dev
 ```
@@ -41,7 +41,7 @@ npm run dev
 
 **BackEnd SpringBoot App**
 
-1.Navigate to the server directory:
+1. Navigate to the server directory:
 ```bash
 cd client
 ```
