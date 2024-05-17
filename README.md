@@ -1,9 +1,9 @@
 
 Table of Contents:
 
-1. Introduction(#introduction)
-2. TechStack(#techstack)
-3. Installation(#installation)
+1. [Introduction](#introduction)
+2. [TechStack](#techstack)
+3. [Installation](#installation)
 
 
 ## <a name="#introduction">🤡 Introduction</a>
