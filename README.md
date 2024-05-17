@@ -22,7 +22,7 @@ Built on Next.js 14 and SpringBoot, the events application stands as a comprehen
 
 Follow these steps to set up the project locally on your machine.
 
-**Client Next-JS  App**
+**FrontEnd Next-JS  App**
 
 1.Navigate to the client directory:
 ```bash
@@ -39,7 +39,7 @@ npm run dev
 ```
 
 
-**Server SpringBoot App**
+**BackEnd SpringBoot App**
 
 1.Navigate to the server directory:
 ```bash
